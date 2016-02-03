@@ -1,7 +1,7 @@
 /**
-	Calculator Class
-    @author LeshaVasya
-    @since 03.02.2016
+*	Calculator Class
+*   @author LeshaVasya
+*   @since 03.02.2016
 */
 public class Calculator{
 	/**
@@ -18,7 +18,7 @@ public class Calculator{
         Adddiction method
         @param  Arguments
     */
-    public void (int ... params){
+    public void add(int ... params){
         for (Integer param: params){
             this.result += param;
         }
