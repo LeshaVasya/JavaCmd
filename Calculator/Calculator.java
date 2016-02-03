@@ -15,8 +15,8 @@ public class Calculator{
         result = 0;
     }
     /**
-        Adddiction method
-        @param  Arguments
+        Addiction method
+        @param params Arguments
     */
     public void add(int ... params){
         for (Integer param: params){
@@ -25,7 +25,7 @@ public class Calculator{
     }
     /**
         Getting Result
-        @result The final result
+        @return The final result
     */
     public int getResult(){
         return this.result;
